@@ -25,7 +25,7 @@ function OurClients() {
               height={62}
             />
             <p className="font-normal text-lg">
-              Whitepate is designed as a collaboration tool for businesses that
+              Whitepace is designed as a collaboration tool for businesses that
               is a full project management solution.
             </p>
           </div>
