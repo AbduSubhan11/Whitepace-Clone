@@ -1,101 +1,76 @@
+import CustomiseYourNeed from "@/components/Customise Your Need";
+import FavouriteApps from "@/components/Favourite Apps";
+import OurClients from "@/components/Our Clients";
+import OurSponsors from "@/components/Our Sponsors";
+import Pricing from "@/components/Pricing";
+import ProjectManagement from "@/components/Project Management";
+import SecureData from "@/components/Secure Data";
+import TryWhitepace from "@/components/Try Whitepace";
+import UseExtension from "@/components/Use Extension";
+import WorkEveryWhere from "@/components/Work EveryWhere";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <>
+      <section className="bg-[#043873] bg-[url('/Images/herobg.png')] bg-center bg-cover flex justify-center py-[80px] lg:px-[110px] px-[32px]">
+        <div className="xl:flex items-center xl:space-y-0 space-y-8">
+          {/* LEFT */}
+          <div className="text-white space-y-10 md:block flex flex-col justify-center items-center md:text-left text-center">
+            <h2 className="font-bold md:text-[64px] text-[36px] md:leading-[77.45px] leading-[43.57px]">
+              Get More Done with whitepace
+            </h2>
+            <p className="text-lg leading-[30px]">
+              Project management software that enables your teams to
+              collaborate, plan, analyze and manage everyday tasks
+            </p>
+            <button className="flex items-center justify-center gap-[10px] rounded-lg bg-[#4F9CF9] text-white w-[219px] h-[63px] font-medium text-lg">
+              Try Whitepace free{" "}
+              <svg
+                width="12"
+                height="12"
+                viewBox="0 0 12 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1 6H11"
+                  stroke="white"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+                <path
+                  d="M6 1L11 6L6 11"
+                  stroke="white"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          {/* RIGHT */}
+          <div className="">
             <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
+              src={"/Images/hero right.webp"}
+              alt="Hero Image"
+              width={824}
+              height={549}
+              className="w-[824px] sm:h-[549px] bg-[#C4DEFD]"
             />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      </section>
+      <ProjectManagement />
+      <UseExtension />
+      <CustomiseYourNeed />
+      <Pricing />
+      <WorkEveryWhere />
+      <SecureData />
+      <OurSponsors />
+      <FavouriteApps />
+      <OurClients/>
+      <TryWhitepace />
+    </>
   );
 }
