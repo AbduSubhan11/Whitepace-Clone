@@ -19,7 +19,7 @@ function SecureData() {
           />
           <p className="font-normal text-[16px] leading-[30px]">
             The app is open source and your notes are saved to an open format,
-            so you'll always have access to them. Uses End-To-End Encryption
+            so you&apos;l always have access to them. Uses End-To-End Encryption
             (E2EE) to secure your notes and ensure no-one but yourself can
             access them.
           </p>

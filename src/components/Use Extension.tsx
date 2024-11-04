@@ -22,7 +22,7 @@ function UseExtension() {
             save web pages or take screenshots as notes.
           </p>
           <button className="flex items-center justify-center gap-[10px] rounded-lg bg-[#4F9CF9] text-white w-[171px] h-[63px] font-medium text-lg">
-            Let's Go
+            Let&apos;s Go
             <svg
               width="12"
               height="12"
