@@ -47,10 +47,10 @@ function OurClients() {
         </div>
 
         {/* CARD 2 */}
-        <div className="max-w-md py-[60px] px-[20px] sm:px-[40px] space-y-10 rounded-lg shadow-lg bg-white">
+        <div className="max-w-md py-[60px] px-[20px] sm:px-[40px] space-y-10 rounded-lg shadow-lg bg-[#4F9CF9]">
           <div className="space-y-5 pb-10 border-b border-gray-400">
             <Image
-              src="/Images/Card Quote 1.png"
+              src="/Images/Card Quote 2&3.png"
               alt="card 2 Quote"
               width={86}
               height={62}
@@ -78,10 +78,10 @@ function OurClients() {
         </div>
 
         {/* CARD 3 */}
-        <div className="max-w-md py-[60px] px-[20px] sm:px-[40px] space-y-10 rounded-lg shadow-lg bg-white">
+        <div className="max-w-md py-[60px] px-[20px] sm:px-[40px] space-y-10 rounded-lg shadow-lg bg-[#4F9CF9]">
           <div className="space-y-5 pb-10 border-b border-gray-400">
             <Image
-              src="/Images/Card Quote 1.png"
+              src="/Images/Card Quote 2&3.png"
               alt="card 3 Quote"
               width={86}
               height={62}
