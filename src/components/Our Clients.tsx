@@ -23,6 +23,7 @@ function OurClients() {
               alt="card 1 Quote"
               width={86}
               height={62}
+              className="sm:w-[86px] w-[56px] sm:h-[62px] h-[40px]"
             />
             <p className="font-normal text-lg">
               Whitepace is designed as a collaboration tool for businesses that
@@ -54,8 +55,9 @@ function OurClients() {
               alt="card 2 Quote"
               width={86}
               height={62}
+              className="sm:w-[86px] w-[56px] sm:h-[62px] h-[40px]"
             />
-            <p className="font-normal text-lg">
+            <p className="font-normal text-lg text-white">
               Whitepate is designed as a collaboration tool for businesses that
               is a full project management solution.
             </p>
@@ -70,7 +72,7 @@ function OurClients() {
             />
             <div>
               <p className="font-bold text-xl">Oberon Shaw, MCH</p>
-              <p className="text-base text-gray-600">
+              <p className="text-base text-white">
                 Head of Talent Acquisition, North America
               </p>
             </div>
@@ -85,8 +87,9 @@ function OurClients() {
               alt="card 3 Quote"
               width={86}
               height={62}
+              className="sm:w-[86px] w-[56px] sm:h-[62px] h-[40px]"
             />
-            <p className="font-normal text-lg">
+            <p className="font-normal text-lg text-white">
               Whitepate is designed as a collaboration tool for businesses that
               is a full project management solution.
             </p>
@@ -101,7 +104,7 @@ function OurClients() {
             />
             <div>
               <p className="font-bold text-xl">Oberon Shaw, MCH</p>
-              <p className="text-base text-gray-600">
+              <p className="text-base text-white">
                 Head of Talent Acquisition, North America
               </p>
             </div>

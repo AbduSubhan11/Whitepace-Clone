@@ -10,13 +10,13 @@ function UseExtension() {
           <h1 className="font-bold text-[34px] sm:text-[54px] md:text-6xl sm:leading-[87.14px] leading-[87.14px] relative z-20">
             Use as Extension
           </h1>
-          {/* <Image
+          <Image
             src={"/Images/section heading line.png"}
             alt="Section Heading Line"
             width={450}
             height={150}
-            className="absolute md:w-[450px] w-[150px] md:left-36 top-full -translate-y-72"
-          /> */}
+            className="absolute w-[250px] sm:w-[450px] md:w-[600px] lg:w-[650px] sm:left-32 md:left-36 top-full -translate-y-72"
+          />
           <p className="font-normal text-lg leaidng-[30px] md:text-left text-center">
             Use the web clipper extension, available on Chrome and Firefox, to
             save web pages or take screenshots as notes.
