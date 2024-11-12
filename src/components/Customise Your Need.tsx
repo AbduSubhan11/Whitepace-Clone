@@ -24,7 +24,7 @@ function CustomiseYourNeed() {
             alt="section heading line"
             width={648}
             height={70}
-            className="absolute w-[150px] sm:w-[300px] md:w-[400px] lg:w-[648px] left-28 sm:left-80 md:left-1 top-full -translate-y-96"
+            className="absolute w-[150px] sm:w-[300px] md:w-[400px] lg:w-[648px] left-26 sm:left-80 md:left-1 top-[430px] sm:top-full -translate-y-96"
           />
           <p className="font-normal text-lg leading-[30px]">
             Customise the app with plugins, custom themes and multiple text

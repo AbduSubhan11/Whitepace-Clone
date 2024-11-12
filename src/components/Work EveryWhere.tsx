@@ -21,7 +21,7 @@ function WorkEveryWhere() {
             alt="section heading line"
             width={314.03}
             height={23.96}
-            className="absolute w-[150px] md:w-[250px] lg:w-[300px] sm:left-[200px] md:left-[500px] lg:left-[600px] xl:left-[750px] sm:top-8 top-28 "
+            className="absolute w-[150px] md:w-[250px] lg:w-[300px] sm:left-[200px] md:left-[500px] lg:left-[600px] xl:left-[750px] top-32 sm:top-10  "
           />
           <p className="font-light text-lg leading-[30px] md:px-32">
             Access your notes from your computer, phone or tablet by
