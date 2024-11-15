@@ -1,14 +1,14 @@
-"use client"
+"use client";
 import Link from "next/link";
 import React, { useState } from "react";
 
 function NavBar() {
-  const [isHamburger , setIsHamburger] = useState(false)
-  const hamburHandler = ()=>{
-    setIsHamburger(!isHamburger)
-  }
+  const [isHamburger, setIsHamburger] = useState(false);
+  const hamburHandler = () => {
+    setIsHamburger(!isHamburger);
+  };
   return (
-    <nav className="flex justify-between bg-[#043873] items-center py-4 px-[32px] lg:px-[110px] sticky top-0 z-30">
+    <nav className="flex justify-between bg-[#043873] items-center py-4 px-[32px] lg:px-[110px] top-0 z-30">
       <div className="flex items-center space-x-4 text-white w-[191px]">
         <svg
           width="37"
@@ -47,7 +47,13 @@ function NavBar() {
 
       <div className="flex gap-[60px]">
         {/* NAVLINKS PARENT */}
-        <div className={`text-lg text-white gap-10 ${isHamburger? "fixed top-0 right-0 h-screen flex flex-col bg-[#043873] px-10 py-20 w-52" : "xl:flex hidden "}`}>
+        <div
+          className={`text-lg text-white gap-10 ${
+            isHamburger
+              ? "fixed top-0 right-0 h-screen flex flex-col bg-[#043873] px-10 py-20 w-52"
+              : "xl:flex hidden "
+          }`}
+        >
           <div className="flex items-center gap-[10px]">
             <Link href={""}>Products</Link>
             <svg
@@ -118,11 +124,15 @@ function NavBar() {
           </div>
         </div>
 
-        <div className="md:flex hidden items-center gap-6">
+        <div
+          className={` items-center gap-6 ${
+            isHamburger ? "fixed top-96 space-y-5 right-4" : "md:flex hidden"
+          }`}
+        >
           <button className="bg-[#FFE492] w-[126px] h-[50px] rounded-lg font-medium text-lg">
             Login
           </button>
-          <button className="flex items-center justify-center gap-[10px] rounded-lg bg-[#4F9CF9] text-white w-[227px] h-[50px] font-medium text-lg">
+          <button className="flex items-center justify-center gap-2 sm:gap-[10px] rounded-lg bg-[#4F9CF9] text-white sm:w-[227px] h-[50px] font-medium px-2 sm:px-0 sm:text-lg">
             Try Whitepace free{" "}
             <svg
               width="12"
