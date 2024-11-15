@@ -13,7 +13,7 @@ function SecureData() {
           <Image
             src="/Images/section heading line.png"
             alt="section heading line"
-            className="absolute w-[250px] sm:w-[380px] top-1 sm:left-48 left-20 "
+            className="absolute w-[250px] sm:w-[380px] top-1 sm:left-48 left-12 "
             width={380}
             height={30}
           />

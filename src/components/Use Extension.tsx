@@ -15,7 +15,7 @@ function UseExtension() {
             alt="Section Heading Line"
             width={450}
             height={150}
-            className="absolute w-[250px] sm:w-[450px] md:w-[600px] lg:w-[650px] left-20 sm:left-32 md:left-36 top-[300px] sm:top-full -translate-y-72"
+            className="absolute w-[200px] sm:w-[450px] md:w-[600px] lg:w-[650px] left-20 sm:left-32 md:left-36 top-[300px] md:top-full -translate-y-72"
           />
           <p className="font-normal text-lg leaidng-[30px] md:text-left text-center">
             Use the web clipper extension, available on Chrome and Firefox, to

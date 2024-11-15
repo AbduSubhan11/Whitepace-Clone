@@ -10,7 +10,7 @@ function OurClients() {
       <Image
         src="/Images/section heading line.png"
         alt="section heading line"
-        className="absolute sm:top-10 top-12 w-[200px] sm:w-[330px] left-[180px] sm:left-[300px] md:left-[400px] lg:left-[500px] xl:left-[850px] -z-20"
+        className="absolute sm:top-10 top-12 w-[200px] sm:w-[330px] left-[140px] sm:left-[300px] md:left-[400px] lg:left-[500px] xl:left-[850px] -z-20"
         width={328}
         height={42}
       />

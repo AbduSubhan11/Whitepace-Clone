@@ -10,7 +10,7 @@ function OurSponsors() {
       <Image
         src="/Images/section heading line.png"
         alt="section heading line"
-        className="absolute sm:top-0 top-8 w-[200px] sm:w-[330px] left-[150px] sm:left-[300px] md:left-[400px] lg:left-[500px] xl:left-[700px] "
+        className="absolute sm:top-0 top-8 w-[200px] sm:w-[330px] left-[100px] sm:left-[300px] md:left-[400px] lg:left-[500px] xl:left-[700px] "
         width={328}
         height={42}
       />

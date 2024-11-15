@@ -24,7 +24,7 @@ function ProjectManagement() {
               alt="Underline"
               width={678.74}
               height={65.55}
-              className="absolute sm:w-[678px] w-[200px] sm:left-1 left-28 top-full sm:-translate-y-10 -translate-y-5 -z-20"
+              className="absolute sm:w-[678px] w-[200px] sm:left-1 left-20 top-full sm:-translate-y-10 -translate-y-5 -z-20"
             />
           </h1>
           <p className="font-normal text-sm sm:text-base md:text-lg lg:text-xl leading-6 sm:leading-7 md:leading-8">
@@ -92,7 +92,7 @@ function ProjectManagement() {
               alt="Underline"
               width={400.36}
               height={28.81}
-              className="absolute sm:w-[350px] w-[200px] sm:left-40 left-24 sm:top-full top-16 -translate-y-8 -z-20"
+              className="absolute sm:w-[350px] w-[200px] sm:left-40 left-16 sm:top-full top-20 -translate-y-8 -z-20"
             />
           </h1>
           <p className="font-normal  text-lg leading-[30px] md::text-left text-center">
